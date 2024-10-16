@@ -1,0 +1,163 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.dog-card-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.discover-container {
+  background-color: gray;
+  width: 600px; 
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.dog-attributes {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+}
+
+.dog-card {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  max-width: 300px;
+}
+
+.dog-card h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.dog-attributes span,
+.dog-attributes button {
+  background-color: #d1a23a;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: black;
+  flex: 1;
+  margin: 0 5px;
+  white-space: nowrap;
+}
+
+.dog-image img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.dog-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.dog-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 250px; 
+  overflow-y: auto; 
+  max-height: 750px; 
+}
+
+.containers {
+  display: flex;
+  justify-content: center; 
+  margin: 20px;
+}
+
+
+.ban-container {
+  width: 250px; 
+  background-color: #f0f0f0; 
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+  max-height: 750px; 
+  overflow-y: auto; 
+}
+
+.ban-container h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.ban-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ban-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ban-container button {
+  background-color: #d1a23a;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ban-container button:hover {
+  background-color: #b58c2d;
+}
